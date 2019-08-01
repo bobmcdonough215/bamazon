@@ -17,7 +17,7 @@ CREATE TABLE products (
 );
 
 INSERT INTO products (product_name, department_name, price, stock_quanity)
-VALUES ("iPhone", true, "Rockington", 100);
+VALUES ("iPhone", tech, 400, 100);
 
 INSERT INTO products (name, has_pet, pet_name, pet_age)
 VALUES ("Ahmed", true, "Rockington", 100);
