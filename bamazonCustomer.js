@@ -87,7 +87,7 @@ var shopping = function () {
                 // console.log("This is the response: " + JSON.stringify(res));
                 console.log(res[0].product_name + " purchased");
                 console.log(quantity + " qty @ $" + res[0].price);
-
+                display();
                 var newQuantity = res[0].stock_quanity - quantity;
                 connection.query(
                   "UPDATE products SET stock_quanity= " +
